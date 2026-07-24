@@ -58,5 +58,5 @@ if __name__ == "__main__":
     for doc in docs:
         print("=" * 50)
         print(f"File: {doc['filename']}")
-        print(doc["content"][:300])  # Preview first 300 characters
+        print(doc["content"][:300])  # shows only the first 300 characters
         print()
