@@ -41,6 +41,10 @@ if __name__ == "__main__":
 
     embedded = embed_chunks()
 
+    if not embedded:
+        print("No chunks found.")
+        exit()
+
     print(f"Generated embeddings for {len(embedded)} chunks\n")
 
     first = embedded[0]
