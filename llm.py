@@ -12,7 +12,7 @@ def ask_gemini(prompt: str):
 
 if __name__ == "__main__":
     answer = ask_gemini(
-        "Explain what Retrieval-Augmenyted Generation is in one paragraph."
+        "Explain what Retrieval-Augmented Generation is in one paragraph."
     )
 
     print(answer)
