@@ -82,7 +82,7 @@ def main():
 
     while True:
 
-        question = input("\nAsk a question ('exit' to quit): ")
+        question = input("\nAsk a question (type 'exit' to quit): ")
 
         if question.lower() == "exit":
             print("\nGoodbye!")
@@ -90,7 +90,7 @@ def main():
 
         try:
 
-            print("\nSearching knowledge base...\n")
+            print("\nSearching knowledge base.....\n")
 
             retrieved_chunks = retrieve(question)
 
